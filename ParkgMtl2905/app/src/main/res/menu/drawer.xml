@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item android:title="categories">
+            <menu>
+                <item
+                    android:id="@+id/favoris"
+                    android:title="Favoris"
+                    android:icon="@drawable/favoris_24dp"
+                    />
+
+                <item
+                    android:id="@+id/mesReservations"
+                    android:title="Mes reservations"
+                    android:icon="@drawable/reservations_24dp"
+                    />
+                <item android:icon="@+id/monCompte"
+                    android:title="@+id/monCompte"
+                    />
+
+                <item
+                    android:id="@+id/preferences"
+                    android:title="preferences"
+                    android:icon="@drawable/preferences_24dp"/>
+
+                <item
+                    android:id="@+id/deconexion"
+                    android:title="deconexion"
+                    android:icon="@drawable/deconexion_24dp"/>
+
+
+
+
+
+
+            </menu>
+        </item>
+    </group>
+
+
+
+</menu>

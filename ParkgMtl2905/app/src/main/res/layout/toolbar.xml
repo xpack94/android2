@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="60dp"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"
+    android:id="@+id/myToolbar">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="parkg Mtl 2905"
+            android:textSize="17sp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperature"
+        android:text="9"
+        android:textColor="@android:color/white"
+        android:textSize="19sp"
+        android:layout_marginLeft="150dp"/>
+
+
+
+    </android.support.v7.widget.Toolbar>
